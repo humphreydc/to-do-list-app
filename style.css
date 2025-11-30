@@ -4,12 +4,14 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+body {
+    background-image: linear-gradient(to bottom right, #31326f, #4fb7b3, #a8fbd3);
+}
 
 .container {
     width: 100%;
     min-height: 100vh;
     padding: 10px;
-    background: #fff;
 }
 
 .todo-list {
@@ -109,4 +111,5 @@ ul li span {
 
 ul li span:hover {
     background: #edeef0;
+
 }
